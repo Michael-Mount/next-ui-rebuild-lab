@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next UI Rebuild Lab
 
-## Getting Started
+This repo is a collection of front-end UI studies where I take static HTML, CSS, and JavaScript demos and rebuild them as reusable Next.js + TypeScript components.
 
-First, run the development server:
+The goal is to practice reading existing code, understanding complex UI behavior, and refactoring it into modern, accessible, maintainable components.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Each rebuild includes:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Credit to the original inspiration/source
+- A breakdown of the original approach
+- A Next.js + TypeScript implementation
+- Accessibility improvements
+- Notes on what changed and what I learned
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Range Slider Rebuild
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Original Inspiration
 
-## Learn More
+Inspired by: [Original CodePen Link(https://codepen.io/thebabydino/pen/qByGqOm)] by Ana Tudor
 
-To learn more about Next.js, take a look at the following resources:
+## Rebuild Goals
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Convert static HTML/CSS/JS into a reusable Next.js component
+- Replace direct DOM manipulation with React state
+- Add TypeScript props
+- Improve keyboard and screen reader accessibility
+- Preserve the original visual interaction
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## What I Learned
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- How range input styling works across browsers
+- How to manage slider state in React
+- How to type reusable component props
+- Where custom CSS is still better than Tailwind
