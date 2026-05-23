@@ -16,7 +16,7 @@ Each rebuild includes:
 
 ## Original Inspiration
 
-Inspired by: [Original CodePen Link] [https://codepen.io/thebabydino/pen/qByGqOm] by Ana Tudor
+Inspired by: [Original CodePen Link][https://codepen.io/thebabydino/pen/qByGqOm] by Ana Tudor
 
 ## Rebuild Goals
 
